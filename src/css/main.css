@@ -11,6 +11,11 @@
      display: none;
  }
 
+ #site-footer {
+ padding-top: 50px;
+ background: #70753b;
+ }
+
 body {
   font-size: calc(10px + 1vmin);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
