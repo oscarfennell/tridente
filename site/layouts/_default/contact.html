@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+<h1>Contacto</h1>
+
+<form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="../success">
+    <label>Nombre:
+        <p>
+            <input type="text" name="name" required/>
+        </p>
+    </label>
+    <label>Correo electrónico:
+        <p>
+            <input type="email" name="email" required/>
+        </p>
+    </label>
+    <label>Mensaje:
+        <p>
+            <textarea name="message" required></textarea>
+        </p>
+    </label>
+    <p class="hidden">
+        <label>Don’t fill this in if you're human: <input name="bot-field" /></label>
+    </p>
+    <button type="submit">Send</button>
+</form>
+
+{{ end }}
