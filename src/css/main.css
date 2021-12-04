@@ -47,7 +47,7 @@ a {
 
 /*Forms*/
 input{
-    width: 90%;
+    width: 95%;
     max-width: 300px;
     padding: 10px;
     margin: 8px 0;
@@ -55,7 +55,7 @@ input{
     border-radius: 3px;
 }
 textarea{
-    width: 90%;
+    width: 95%;
     height: 100px;
     max-width: 300px;
     padding: 10px;
@@ -65,7 +65,7 @@ textarea{
 }
 
 button{
-    width: 85%;
+    width: 90%;
     max-width: 250px;
     padding: 10px;
     border: 0;
