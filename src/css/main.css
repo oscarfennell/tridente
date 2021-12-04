@@ -12,7 +12,9 @@
  }
 
  #site-footer {
+ margin-top: 50px;
  padding-top: 50px;
+ padding-bottom: 50px;
  background: #70753b;
  width: 100%;
  }
